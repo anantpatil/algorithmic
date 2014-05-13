@@ -13,6 +13,6 @@ def fibonacci():
 	a, b = b, a+b
 
 fib=fibonacci()
-#print [n for n in takewhile(lambda x: x < 400, fib)]
-total=sum([n for n in takewhile(lambda x: x < 4000000, fib)])
+total = sum([n for n in takewhile(lambda x: x < 400, fib)])
+#total=sum([n for n in takewhile(lambda x: x < 4000000, fib)])
 print total
